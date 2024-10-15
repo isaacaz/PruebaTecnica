@@ -67,6 +67,9 @@ Crea una lista de tareas donde los usuarios puedan agregar y eliminar tareas.
 
 Las tareas deben guardarse en LocalStorage para que no se pierdan al recargar la página.
 
+- HTML
+- JAVASCRIPT
+
 ## Authors
 
 - [@isaacaz](https://github.com/isaacaz)
