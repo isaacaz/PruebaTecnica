@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Tecnica</title>
+</head>
+<body>
+    <h1>Registro de Tareas</h1>
+    <h2>Agregar Tarea: </h2>
+    <form id ="Formulario">
+        <label for="Form-label">Tarea</label>
+        <input
+            type="text"
+            class="form-control"
+            id="TareaInput"
+        />
+        <button type="submit">Agregar Tarea</button>
+    </form>
+    <div id="Listado">
+        <h2>Lista de Tareas</h2>
+        <table id="tabla-tareas">
+            <thead id = "tabla-head">
+                <tr>
+                    <th>Nº</th>
+                    <th>Tarea</th>
+                </tr>
+            </thead>
+            <p id="sin-tareas">No hay registros de tareas, agrega una!</p>
+            <tbody id ="table-body">
+
+            </tbody>
+            
+            <tr></tr>
+        </table>
+    </div>
+
+</body>
+<foot>
+    <script src="04_lista_To_Do.js"></script>
+</foot>
+</html>
